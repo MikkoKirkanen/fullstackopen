@@ -6,9 +6,6 @@ The Full Stack open course at the University of Helsinki's Open University for l
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -27,14 +24,14 @@ The Full Stack open course at the University of Helsinki's Open University for l
     git clone https://github.com/MikkoKirkanen/fullstackopen.git
     cd fullstackopen
     ```
-
-<!-- 2. Install dependencies:
+2. Move to folder where is package.json file and install depencies:
     ```bash
     npm install
-    ``` -->
+    ```
 
 ## Usage
 
 To start the development server, use:
 ```bash
-npm start
+npm run dev
+```
