@@ -50,7 +50,7 @@ const Anecdote = (props) => {
     <div>
       <p>{anecdote}</p>
       <p>
-        has {votes} {voteText}
+        Has {votes} {voteText}
       </p>
     </div>
   );
