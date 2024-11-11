@@ -28,10 +28,10 @@ The Full Stack open course at the University of Helsinki's Open University for l
     cd fullstackopen
     ```
 
-2. Install dependencies:
+<!-- 2. Install dependencies:
     ```bash
     npm install
-    ```
+    ``` -->
 
 ## Usage
 
