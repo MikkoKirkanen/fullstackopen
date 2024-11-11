@@ -1,6 +1,6 @@
 # Full Stack open
 
-The Full Stack open course at the University of Helsinki's Open University for learning programming languages and tools including React, Redux, Node.js, MongoDB, GraphQL, and TypeScript.
+The Full Stack open course at the Helsinki's Open University for learning programming languages and tools including React, Redux, Node.js, MongoDB, GraphQL, and TypeScript.
 
 ## Table of Contents
 - [Features](#features)
