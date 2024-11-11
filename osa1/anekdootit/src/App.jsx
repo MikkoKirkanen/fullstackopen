@@ -44,12 +44,13 @@ const Button = (props) => (
 );
 
 const Anecdote = (props) => {
-  const voteText = props.votes === 1 ? "vote" : "votes";
+  const { votes, anecdote } = props;
+  const voteText = votes === 1 ? "vote" : "votes";
   return (
     <div>
-      <p>{props.anecdote}</p>
+      <p>{anecdote}</p>
       <p>
-        has {props.votes} {voteText}
+        has {votes} {voteText}
       </p>
     </div>
   );
