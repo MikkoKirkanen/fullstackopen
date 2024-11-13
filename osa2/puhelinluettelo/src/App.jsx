@@ -23,6 +23,9 @@ const App = () => {
     personsService.getAll().then((data) => {
       setPersons(data);
       initNextId(data);
+    }).catch(error => {
+      console.error(`${error.message}: Did you remember to start server?`);
+      console.warn("Run in terminal: npm run server")
     });
   }, []);
 
