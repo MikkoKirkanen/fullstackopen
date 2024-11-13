@@ -176,7 +176,7 @@ const App = () => {
       </div>
       <Filter filter={filter} onFilterChange={handleFilterChange} />
 
-      <h3>Add a new</h3>
+      <h3>{isEditMode ? "Edit person information" : "Add a new"}</h3>
       <PersonForm
         submit={add}
         name={newName}
