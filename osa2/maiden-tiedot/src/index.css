@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 6px;
+  gap: 6px;
+}
+
+.country-info {
+  flex: 1;
+  min-width: 320px;
+
+  .weather-container {
+    display: flex;
+    justify-content: center;
+
+    .weather-content {
+      background-color: deepskyblue;
+      display: inline-block;
+      border-radius: 50%;
+    }
+  }
+}
+
+.table > tbody > tr > td:first-child {
+  width: 1%;
+  text-wrap: nowrap;
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.wind-arrow {
+  display: inline-block;
+  
+}

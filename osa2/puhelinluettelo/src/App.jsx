@@ -80,6 +80,7 @@ const App = () => {
             "danger"
           );
           setIsEditMode(false);
+          // Clean up a person not found in the list 
           updatePersons(personObj);
           clear();
         });
